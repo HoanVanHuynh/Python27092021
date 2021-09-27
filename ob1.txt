@@ -1,0 +1,31 @@
+I'd like to talk to you today about the observer pattern in Python
+Now design patterns in general are very interesting to study 
+for any object-oriented language 
+because they are ways to reuse ibly to solve problems 
+in code that are common and come up in many different contexts 
+Because in language like Java and C++ and C sharp and PHP
+there's been a lot of research done since the turn of the century 
+And there's a great big volume of body of literature for us 
+to learn from and use 
+But in Python some things are different about how you actually
+apply them and implement them because 
+Python has some useful characteristics that the other languages 
+don't have.
+Features like dynamic typing, features like functions being 
+first-class objects and other characteristics as well 
+that lets us implement design patterns in Python 
+in way that is often simpler more concise and more maintainable 
+readable and useful. 
+Now with the observer pattern if you're not familiar with it
+the idea that observer pattern is that:
+you have some root object which we'll call the Observable 
+and the Observable has some way to know 
+when some state changes of interest.
+we're talking about this very abstractly here. 
+but I'm going to get very specific with it a little bit 
+Something will change that the Observable we'll know about
+and you'll also have a number of other, let's say, satellite objects
+that want to know when this happens.
+You have a number of other entities that want to be notified 
+when this thing changes
+so 
